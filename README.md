@@ -3,8 +3,10 @@ THE lightweight dark mode extension! (Because dark mode shouldn't make a memory 
 
 ## Build instructions
 
+Run this in a new terminal in the cloned folder:
+
 ```
-./build.sh
+bash build.sh
 ```
 
 ## What the build script does.
