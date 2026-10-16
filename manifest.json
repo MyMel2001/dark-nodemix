@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Dark NodeMix",
+  "version": "1.0",
+  "description": "JS-injected CSS filter experiment. Made with <3 by NodeMixaholic",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
