@@ -14,7 +14,7 @@ bash build.sh
 * zips
 * moves to crx
 
-Literally the only reason it's there is for Mozilla compliance.
+Literally the only reason it's there is for Mozilla compliance in case I ever need it. Prepare for the worst, yk?
 
 ## Tested platforms
 
